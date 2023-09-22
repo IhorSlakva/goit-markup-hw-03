@@ -41,7 +41,6 @@ img {
     align-items: center;
     flex-shrink: 0;
     border-bottom: 1px solid #e7e9fc;
-    padding: 24px 0;
 }
 
 .header-navigation {
@@ -61,7 +60,10 @@ img {
 .header-nav-list {
     display: flex;
     gap: 40px;
+}
 
+.header-nav-item {
+    padding: 24px 0;
 }
 
 
@@ -101,6 +103,7 @@ text-transform: uppercase;
 .header-address {
     font-style: normal;
 }
+
 
 .header-address-link {
     color: #434455;
