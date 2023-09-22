@@ -55,17 +55,13 @@ img {
 .header-container {
     display: flex;
     padding: 0 15px;
+    padding: 24px 0;
 }
 
 .header-nav-list {
     display: flex;
     gap: 40px;
 }
-
-.header-nav-item {
-    padding: 24px 0;
-}
-
 
 .header-nav-logo {
     color:#4D5AE5;
