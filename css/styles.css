@@ -41,6 +41,7 @@ img {
     align-items: center;
     flex-shrink: 0;
     border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0;
 }
 
 .header-navigation {
@@ -73,7 +74,6 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 margin-right: 76px;
-padding: 24px 0;
 }
 
 .header-logo-studio {
