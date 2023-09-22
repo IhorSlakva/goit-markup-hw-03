@@ -55,7 +55,6 @@ img {
 .header-container {
     display: flex;
     padding: 0 15px;
-    padding: 24px 0;
 }
 
 .header-nav-list {
@@ -90,6 +89,7 @@ text-transform: uppercase;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 .header-nav-link:hover,
 .header-nav-link:focus {
@@ -98,10 +98,6 @@ text-transform: uppercase;
 
 .header-address {
     font-style: normal;
-}
-
-.header-nav-item {
-    padding: 24px 0;
 }
 
 
