@@ -54,7 +54,7 @@ img {
 
 .header-container {
     display: flex;
-    padding: 24px 0;
+    padding: 0 15px;
 }
 
 .header-nav-list {
@@ -72,6 +72,8 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-right: 76px;
+padding: 24px 0;
 }
 
 .header-logo-studio {
@@ -82,7 +84,6 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-margin-right: 76px;
 }
 
 .header-nav-link {
@@ -125,6 +126,7 @@ margin-right: 76px;
 /* ==========Business========== */
 
 .business {
+        padding: 188px 0;
 }
 
 .business-container {
@@ -133,7 +135,6 @@ margin-right: 76px;
     flex-direction: column;
     align-items: center;
     gap: 48px;
-    padding: 188px 0;
 }
 
 
@@ -228,12 +229,11 @@ margin-right: 76px;
 
 
 .team {
-
+    padding: 120px 0;
 }
 
 .container-team {
     background-color: #F4F4FD;
-    padding: 120px 0;
 }
 
 .team-list {
@@ -261,6 +261,7 @@ margin-right: 76px;
     background-color: #ffffff;
     text-align: center;
     border-radius: 0px 0px 4px 4px;;
+    width: calc((100% - 72) /4);
 }
 
 .team-subtitle {
@@ -348,9 +349,12 @@ letter-spacing: 0.02em;
 
 /* ==========Footer========== */
 
+.footer {
+    padding: 100px 0;
+}
+
 .footer-container {
     background-color: #2E2F42;
-    padding: 100px 0;
 }
 
 .footer-logo {
